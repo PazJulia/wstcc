@@ -1,6 +1,6 @@
 package br.unitins.julieta.model;
 
-public enum EnumRanking {
+public enum Ranking {
     
     NENHUM(1),
     BRONZE(2),
@@ -10,7 +10,7 @@ public enum EnumRanking {
 
     private int ranking;
 
-    EnumRanking(int ranking) {
+    Ranking(int ranking) {
         this.ranking = ranking;
     }
 }

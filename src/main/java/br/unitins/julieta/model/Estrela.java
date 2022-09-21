@@ -1,6 +1,6 @@
 package br.unitins.julieta.model;
 
-public enum EnumEstrela {
+public enum Estrela {
     
     UMA(1),
     DUAS(2),
@@ -8,7 +8,7 @@ public enum EnumEstrela {
 
     private int quantidade;
 
-    EnumEstrela(int quantidade) {
+    Estrela(int quantidade) {
         this.quantidade = quantidade;
     }
 }

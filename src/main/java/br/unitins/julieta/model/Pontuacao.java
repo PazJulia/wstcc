@@ -1,6 +1,6 @@
 package br.unitins.julieta.model;
 
-public enum EnumPontuacao {
+public enum Pontuacao {
 
     UM_XP("01_XP", 1),
     DOIS_XP("02_XP", 5),
@@ -9,7 +9,7 @@ public enum EnumPontuacao {
     private String descricao;
     private int valor;
 
-    EnumPontuacao(String descricao, int valor) {
+    Pontuacao(String descricao, int valor) {
         this.descricao = descricao;
         this.valor = valor;
     }

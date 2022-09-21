@@ -1,6 +1,6 @@
 package br.unitins.julieta.model;
 
-public enum EnumNivel {
+public enum Nivel {
     
     BASICO(1),
     INTERMEDIARIO(2),
@@ -8,7 +8,7 @@ public enum EnumNivel {
 
     private int valor;
 
-    EnumNivel(int valor) {
+    Nivel(int valor) {
         this.valor = valor;
     }
 }

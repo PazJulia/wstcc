@@ -4,10 +4,8 @@ import javax.persistence.Entity;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
-import io.quarkus.hibernate.orm.panache.PanacheEntity;
-
 @Entity
-public class Comando extends PanacheEntity {
+public class Comando extends DefaultEntity {
     public int sequencia;
     public String nome;
 
